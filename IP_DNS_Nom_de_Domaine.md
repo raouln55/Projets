@@ -59,10 +59,10 @@ En 1984 se mettent en place les « top level domains », c'est-à-dire les suffi
 
 Il existe 2 types d'adresses IP:
 * IP v4 sur 32 bits : C'est la version la plus utilisée généralement représentée en notation décimale avec 4 nombres compris entre 0 et 255, séparés par des points
-- Exemple : `172.16.254.1`
+	- Exemple : `172.16.254.1`
 
 * IP V6 sur 128bits : représentée avec des chiffres hexadécmaux et binaires
-- Exemple : `2001:0DB8:AC10:FE01:0000:0000:0000:0000:0000:0000:0000:0000:0000:0000:0000:0000`
+	- Exemple : `2001:0DB8:AC10:FE01:0000:0000:0000:0000:0000:0000:0000:0000:0000:0000:0000:0000`
 
 
 * Une adresse IP par interface avec le réseau de tout matériel informatique (routeur, ordinateur, smartphone, modem ADSL, imprimante réseau, etc...) s'il est connecté à un réseau utilisant l'Internet Protocol comme protocole de communication.
@@ -82,9 +82,9 @@ Il existe 2 types d'adresses IP:
 Dans la plupart des cas l'utilisateur ne donne pas son adresse IP pour se connecter à un serveur mais son nom de domaine (par exemple www.wikipedia.org). Le nom de domaine **(NDD)** est ensuite transformé en adresse IP par l'ordinateur de l'utilisateur en faisant appel au système de noms de domaine **(NDS)**. Ce n'est qu'une fois l'adresse obtenue qu'il est possible d'initier une connexion. 
 
 Les noms de domaines ont certains avantages sur les adresses IP:
-- Ils sont plus lisibles
-- Ils ne sosnt pas impliqués dans le routage donc ils peuvent être conservés même en cas de réorganisation de l'infrastructure réseau
-- Ils n eson pas limités à quelques milliards comme les adresses IPv4
+	- Ils sont plus lisibles
+	- Ils ne sosnt pas impliqués dans le routage donc ils peuvent être conservés même en cas de réorganisation de l'infrastructure réseau
+	- Ils n eson pas limités à quelques milliards comme les adresses IPv4
 
 ## DNS - Système de Noms de Domaine
 
