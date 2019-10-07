@@ -82,9 +82,9 @@ Il existe 2 types d'adresses IP:
 Dans la plupart des cas l'utilisateur ne donne pas son adresse IP pour se connecter à un serveur mais son nom de domaine (par exemple www.wikipedia.org). Le nom de domaine **(NDD)** est ensuite transformé en adresse IP par l'ordinateur de l'utilisateur en faisant appel au système de noms de domaine **(NDS)**. Ce n'est qu'une fois l'adresse obtenue qu'il est possible d'initier une connexion. 
 
 Les noms de domaines ont certains avantages sur les adresses IP:
-	- Ils sont plus lisibles
-	- Ils ne sosnt pas impliqués dans le routage donc ils peuvent être conservés même en cas de réorganisation de l'infrastructure réseau
-	- Ils n eson pas limités à quelques milliards comme les adresses IPv4
+	* Ils sont plus lisibles
+	* Ils ne sosnt pas impliqués dans le routage donc ils peuvent être conservés même en cas de réorganisation de l'infrastructure réseau
+	* Ils n eson pas limités à quelques milliards comme les adresses IPv4
 
 ## DNS - Système de Noms de Domaine
 
