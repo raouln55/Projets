@@ -84,10 +84,15 @@ Dans la plupart des cas l'utilisateur ne donne pas son adresse IP pour se connec
 Les noms de domaines ont certains avantages sur les adresses IP:
 * Ils sont plus lisibles
 * Ils ne sosnt pas impliqués dans le routage donc ils peuvent être conservés même en cas de réorganisation de l'infrastructure réseau
-* Ils n eson pas limités à quelques milliards comme les adresses IPv4
+* Ils ne sont pas limités à quelques milliards comme les adresses IPv4
+
+* Chaque domaine doit être défini au minimum dans deux serveurs DNS qui peuvent être intérrogés pour connaître l'adresse IP associé à un nom d'hôte ou le nom d'hôte associé à une adresse IP.
 
 ## DNS - Système de Noms de Domaine
 
+### Rôle du DNS
+
+Le rôle du **Système de Noms de Domaine**
 
 
 
