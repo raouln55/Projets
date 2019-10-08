@@ -97,13 +97,12 @@ Le rôle du **Système de Noms de Domaine** est de "résoudre" les noms de domai
 
 ## Hiérarchie du DNS
 
-
-![Hiérarchie des DNS](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dns-raum.svg/800px-Dns-raum.svg.png)
-
 Le système des noms de domaine consiste en une hiérarchie dont le sommet est appelé la racine (représenté par un point `.`.
 Dans un domaine, on peut créer un ou plusieurs sous-domaines ainsi qu'une délégation pour ceux-ci, une indication que les informations relatives à ce sous-domaine sont enregistrées sur un autre serveur. Ces sous-domaines peuvent à leur tour déléguer des sous-domaines vers d'autres serveurs.
 
 Les domaines se trouvant immédiatement sous la racine sont appelés domaine de premier niveau (TLD : Top Level Domain). Les noms de domaines ne correspondant pas à une extension de pays sont appelés des domaines génériques (gTLD), par exemple .org ou .com. S'ils correspondent à des codes de pays (fr, be, ch…), ce sont des domaines de premier niveau national, aussi appelés ccTLD de l'anglais country code TLD.
+
+![Hiérarchie des DNS](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dns-raum.svg/800px-Dns-raum.svg.png)
 
 On représente un nom de domaine en indiquant les domaines successifs séparés par un point, les noms de domaines supérieurs se trouvant à droite. Par exemple, le domaine org. est un TLD, sous-domaine de la racine. Le domaine wikipedia.org. est un sous-domaine de .org. Cette délégation est accomplie en indiquant la liste des serveurs DNS associée au sous-domaine dans le domaine de niveau supérieur.
 
