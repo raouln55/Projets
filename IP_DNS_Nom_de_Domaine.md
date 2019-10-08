@@ -98,7 +98,7 @@ Le rôle du **Système de Noms de Domaine** est de "résoudre" les noms de domai
 ## Hiérarchie du DNS
 
 
-[Hiérarchie des DNS](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dns-raum.svg/800px-Dns-raum.svg.png)
+![Hiérarchie des DNS](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dns-raum.svg/800px-Dns-raum.svg.png)
 
 Le système des noms de domaine consiste en une hiérarchie dont le sommet est appelé la racine (représenté par un point `.`.
 Dans un domaine, on peut créer un ou plusieurs sous-domaines ainsi qu'une délégation pour ceux-ci, une indication que les informations relatives à ce sous-domaine sont enregistrées sur un autre serveur. Ces sous-domaines peuvent à leur tour déléguer des sous-domaines vers d'autres serveurs.
