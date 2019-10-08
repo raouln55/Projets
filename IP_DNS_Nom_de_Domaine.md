@@ -113,7 +113,7 @@ Pour qu'il fonctionne normalement, un nom de domaine doit avoir fait l'objet d'u
 
 ## Identifier mon serveur
 
-### Lignes de commandes
+### Lignes de commandes...
 
 * `hostname -I`
 
