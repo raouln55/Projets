@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/Station_Météo.css" rel="stylesheet">
+    <title>La Station Météo de la Promo</title>
+</head>
+<body>
+        <header>
+                <br><h1>Bienvenue dans la station météo de la promo</h1><br><br>
+                <nav>
+                        <ul>
+                                <li id="lastMesure"><a href="#">Dernière mesure</a></li>
+                                <li id="topMesures"><a href="#">Top mesures</a></li>
+                                <li id="tableMesures"><a href="#">Tableau des mesures</a></li>
+                                <li id="graphMesures"><a href="#">Graphiques des mesures</a></li>
+                        </ul>
+                    </nav>
+        </header>
+        <section>
+            <div>
+                    <ul id="humidité">
+                    </ul>
+            </div>
+            <div>
+                    <ul id="température">
+                    </ul>
+            </div>
+            <div>
+                    <ul id="pression">
+                    </ul>
+            </div>
+        </section>
+        <section>
+            <div>
+                    <table id="table_Mesures">
+                            <tbody>
+                                <tr id="head">
+                                    <td>Date</td>
+                                    <td>Température (°C)</td>
+                                    <td>Humidité (%hum)</td>
+                                    <td>Pression (hPa)</td>
+                                </tr>
+                            </tbody>
+                    </table>
+            </div>
+        </section>
+</body>
+<script src="Station_Météo.js"></script>
+</html>
